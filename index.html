@@ -5,56 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/788f55f3b4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Music Library</title>
 </head>
 <body>
-    <div class="nav-main">
-        <div class="profile">
+    <div class="nav-main display-flex-column">
+        <div class="profile display-flex-row">
             <div class="image-profile">
-                <img src="assets/profile.jpg" alt="imagem de perfil">
-                <div class="name-profile">Dany Schudler</div>
-                <div class="config-profile">Edit Profile <i class="fa-solid fa-gear"></i></div>
+                <img id="image-profile" src="assets/profile.jpg" alt="imagem de perfil">
             </div>
-            <div class="nav-menu1">
-
-                <div class="menu-item">
+                <div class="description display-flex-column">
+                    <div class="name-profile">Dany Schudler</div>
+                    <div class="config-profile">Edit Profile <i class="fa-solid fa-gear"></i></div>
+                </div>
+        </div>
+        <div class="menus display-flex-column">
+            <div class="nav-menu1 display-flex-column">
+                <div class="menu-item selected" id="selected">
                     <i class="fa-solid fa-house"></i>
                     Overview
                 </div>
-
                 <div class="menu-item">
                     <i class="fa-solid fa-newspaper"></i>
                     News
                 </div>
-
                 <div class="menu-item">
                     <i class="fa-brands fa-itunes-note"></i>
                     Playlists
                 </div>
-
                 <div class="menu-item">
                     <i class="fa-duotone fa-signal"></i>
                     Discover
                 </div>
             </div>
-
-            <div class="nav-menu2">
-
+            <div class="nav-menu2 display-flex-column">
                 <div class="menu-item">
                     <i class="fa-solid fa-sliders"></i>
                     Dashboard
                 </div>
-
                 <div class="menu-item">
                     <i class="fa-solid fa-message"></i>
                     Messages
                 </div>
-
                 <div class="menu-item">
                     <i class="fa-solid fa-bell"></i>
                     Notifications
                 </div>
-
                 <div class="menu-item">
                     <i class="fa-solid fa-user"></i>
                     Account
