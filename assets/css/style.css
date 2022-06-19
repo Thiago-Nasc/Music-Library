@@ -19,6 +19,7 @@ html {
     --cor-text-primary: #fff;
     --cor-text-secondary: rgb(90, 90, 97);
     --background-nav: rgb(4, 5, 23);
+    --background-content: rgb(17, 19, 41);
 }
 
 .display-flex-column {
@@ -34,6 +35,7 @@ html {
 /* menu esquerdo */
 body {
     display: flex;
+    width: 100vw;
 }
 
 .nav-main {
@@ -107,3 +109,75 @@ body {
     color: var(--cor-text-primary);
 }
 
+/* conteudo - area de perquisa */
+
+.content {
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2rem 3rem 0 7rem;
+    background-color: var(--background-content);
+    width: 80%;
+}
+
+#search {
+    width: 30rem;
+    background-color: transparent;
+    padding: .5rem 1rem;
+    font-size: 1.5rem;
+    outline: none;
+    color: var(--cor-text-primary);
+}
+
+.icon-search {
+    color: var(--cor-text-secondary);
+    font-size: 1.5rem;
+}
+
+.content .title-playlists {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 4rem 0 1rem 0;
+    color: var(--cor-text-primary);
+}
+
+.content .playlists {
+    align-items: center;
+    overflow-x: scroll;
+    width: 100%;
+    height: 30rem;
+    margin-bottom: 4rem;
+}
+
+.content .playlists .playlist-item {
+    height: 100%;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.content .playlists .playlist-item .image {
+    height: 85%;
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.content .playlists .playlist-item .image img {
+    height: 100%;
+}
+
+.content .playlists .playlist-item .description {
+    height: 15%;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--cor-text-primary);
+    padding-top: 1rem;
+}
+
+::-webkit-scrollbar {
+    height: 1rem;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(32, 15, 86);
+    border-radius: 1rem;
+}
