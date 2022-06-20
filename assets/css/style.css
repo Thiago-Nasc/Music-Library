@@ -133,6 +133,8 @@ body {
     cursor: pointer;
 }
 
+/* conteudo - playlists */
+
 .content .title-playlists {
     font-size: 2rem;
     font-weight: bold;

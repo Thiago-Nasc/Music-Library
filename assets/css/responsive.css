@@ -1,0 +1,52 @@
+@media (max-width: 576px) {
+    .nav-main {
+        display: none;
+    }
+
+    .content {
+        padding: 3rem 1rem 0 2rem;
+        width: 100%;
+    }
+
+    .input-search {
+        width: 100%;
+    }
+
+    .content .playlists {
+        height: 20rem;
+    }
+
+    .content .playlists .playlist-item .image {
+        height: 70%;
+        width: 27rem;
+    }
+
+    .content .playlists .playlist-item .image img {
+        width: 100%;
+    }
+
+    ::-webkit-scrollbar {
+        height: 1rem;
+        background-color: transparent;
+        display: none;
+    }
+
+    .bottom-side {
+        flex-direction: column;
+    }
+
+    .profiles,
+    .tracks {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .tracks .tracks-nav {
+        margin: 0;
+        width: 100%;
+    }
+
+    .tracks .title-tracks {
+        margin: 0 0 1rem 0;
+    }
+}
