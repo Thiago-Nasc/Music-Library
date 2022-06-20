@@ -32,6 +32,10 @@ html {
     flex-direction: row;
 }
 
+#button-menu {
+    display: none;
+}
+
 /* menu esquerdo */
 body {
     display: flex;
@@ -44,6 +48,7 @@ body {
     background-color: var(--background-nav);
     justify-content: space-around;
     align-items: center;
+    overflow: hidden;
 }
 
 .nav-main .profile {
@@ -72,6 +77,7 @@ body {
     font-weight: bold;
     color: var(--cor-text-primary);
     width: 10rem;
+
 }
 
 .nav-main .description .config-profile,
@@ -116,6 +122,7 @@ body {
     padding: 2rem 3rem 0 7rem;
     background-color: var(--background-content);
     width: 80%;
+    height: 100vh;
 }
 
 #search {

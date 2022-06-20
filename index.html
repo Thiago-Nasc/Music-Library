@@ -10,7 +10,7 @@
     <title>Music Library</title>
 </head>
 <body>
-    <div class="nav-main display-flex-column">
+    <div class="nav-main display-flex-column" id="menu-nav">
         <div class="profile display-flex-row">
             <div class="image-profile">
                 <img id="image-profile" src="assets/profile.jpg" alt="imagem de perfil">
@@ -63,6 +63,8 @@
         <div class="input-search">
             <i class="fa-solid fa-magnifying-glass icon-search"></i>
             <input type="text" name="search" id="search" placeholder="Search artists, playslists or tracks">
+            <i class="fa-solid fa-bars" id="button-menu" onclick="mostrarMenu()"></i>
+            <div id="fechar-menu" onclick="ocultarMenu()"></div>
         </div>
         <div class="title-playlists">Featured Playlists</div>
         <div class="playlists display-flex-row">
@@ -191,5 +193,7 @@
             </div>
         </div>
     </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

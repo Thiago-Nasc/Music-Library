@@ -1,11 +1,70 @@
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+
+    body {
+        background-color: var(--background-content);
+    }
+
     .nav-main {
+        position: absolute;
+        width: 0;
+        right: 0;
+        top: 0;
+        z-index: 2;
+        transition: all .5s linear;
+    }
+
+    .nav-main .profile {
+        gap: .5rem;
+    }
+
+    .nav-main .description {
+        width: 10.3rem;
+        overflow: none;
+    }
+
+    .nav-main .profile .image-profile {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .nav-main .nav-menu1,
+    .nav-main .nav-menu2 {
+        justify-content: start;
+        width: 100%;
+        overflow: hidden;
+        padding-left: 2rem;
+        gap: 2rem;
+    }
+
+    .nav-main .menu-item {
+        width: 20rem;
+        font-size: 2.5rem;
+    }
+
+    #button-menu {
+        display: inline-block;
+        position: absolute;
+        right: 1rem;
+        top: 1.8rem;
+        font-size: 4rem;
+        color: var(--cor-text-primary);
+        padding: .5rem;
+        z-index: 3;
+    }
+
+    #fechar-menu {
         display: none;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        z-index: 1;
     }
 
     .content {
         padding: 3rem 1rem 0 2rem;
         width: 100%;
+        height: 100%;
     }
 
     .input-search {
