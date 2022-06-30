@@ -1,7 +1,10 @@
-<br />
+<h1 style='font-size: 40px'>Music Library</h1>
+<p style='font-size: 20px'>The Music Library is a challenge proposed by the DevChallenge website and aims to create a music library page</p>
+<p style='font-size: 20px'>The project has two versions, a mobile version and a desktop version.</p>
 <p align="center">
     <img src="web/github/desktop.gif"/>
     <img src="web/github/mobile.gif"/>
-
-neste projeto criei uma página de uma biblioteca de músicas, visando concluir um desafio do site DevChallenge
-A página é adptada tanto para desktops quanto para smartphones.
+<h2 style='font-size: 25px'>the following technologies were used for the development of the application:</h2>
+<p style='font-size: 15px'>- HTML5</p>
+<p style='font-size: 15px'>- CSS3</p>
+<p style='font-size: 15px'>- Javascript</p>
